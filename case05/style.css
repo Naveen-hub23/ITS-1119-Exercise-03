@@ -1,1 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    border: 1px solid #444;
+}
+
+
+.red { background-color: #ff0000; }
+.green { background-color: #008000; }
+.orange { background-color: #ff6600; }
+.purple { background-color: #800080; }
+
+
+ 
+.pink { background-color: #ff00ff; }
+.blue { background-color: #0000ff; }
+.brown { background-color: #a52a2a; }
+.light-pink { background-color: #ee82ee; }
+
+ 
+
+.dark-purple { background-color: #4b0082; }
+.yellow { background-color: #ffff00; }
+.teal { background-color: #5f9ea0; }
+.cyan { background-color: #00ffff; }
