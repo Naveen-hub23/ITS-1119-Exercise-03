@@ -1,1 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+
+.red-box {
+    background-color: red;
+    top: 0;
+    left: 0;
+}
+
+.green-box {
+    background-color: green;
+    top: 0;
+    right: 0;
+}
+
+.orange-box {
+    background-color: orange;
+    bottom: 0;
+    left: 0;
+}
+
+.pink-box {
+    background-color: deeppink;
+    bottom: 0;
+    right: 0;
+}
+
+.corner-circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.top-left {
+    top: -50px;
+    left: -50px;
+}
+
+.top-right {
+    top: -50px;
+    right: -50px;
+}
+
+.bottom-left {
+    bottom: -50px;
+    left: -50px;
+}
+
+.bottom-right {
+    bottom: -50px;
+    right: -50px;
+}
+
+.center-shape {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.inner-square {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+
+.center-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+}
+
+.center-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -40px;
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50%;
+}
